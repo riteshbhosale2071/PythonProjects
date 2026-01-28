@@ -8,7 +8,6 @@ def judge_leap_year(year):
     else:
         return False
 
-
 # returns the number of days in each month
 def month_days(month, leap_year):
     if month in [1, 3, 5, 7, 8, 10, 12]:
@@ -19,7 +18,6 @@ def month_days(month, leap_year):
         return 29
     elif month == 2 and (not leap_year):
         return 28
-
 
 name = input("input your name: ")
 birth_year = int(input("input your birth year (YYYY): "))
