@@ -1,3 +1,4 @@
+# Stopwatch Application using Tkinter
 import tkinter as tk
 from time import perf_counter
 
