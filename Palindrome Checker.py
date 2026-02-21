@@ -7,7 +7,7 @@ text = input("Enter text: ")
 cleaned_text = ""
 
 for char in text:
-    if char.isalnum():  # Keeps only letters and numbers
+    if char.isalnum():
         cleaned_text += char.lower()
 
 if cleaned_text == cleaned_text[::-1]:
